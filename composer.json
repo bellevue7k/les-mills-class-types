@@ -27,7 +27,7 @@
         },
         "laravel": {
             "providers": [
-                "bellevue7k\\spanClasses\\ServiceProvider"
+                "MartyFriedel\\LesMillsClassTypes\\ServiceProvider"
             ]
         }
     }
