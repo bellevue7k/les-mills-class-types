@@ -26,30 +26,10 @@ export default {
     computed: {
         classTypes() {
             return {
-                'bodyattack': {
-                    name: 'BodyAttack',
-                    colour: '#FCC500'
+                'disableHyphens': {
+                    name: 'Silbentrennung ausschalten',
+                    colour: '#000000'
                 },
-                'bodybalance': {
-                    name: 'BodyBalance',
-                    colour: '#b9d47d'
-                },
-                'bodypump': {
-                    name: 'BodyPump',
-                    colour: '#ea4851'
-                },
-                'cxworx': {
-                    name: 'CXWORX',
-                    colour: '#e75204'
-                },
-                'les-mills-core': {
-                    name: 'Les Mills Core',
-                    colour: '#444444'
-                },
-                'les-mills-tone': {
-                    name: 'Les Mills Tone',
-                    colour: '#777777'
-                }
             };
         }
     },
