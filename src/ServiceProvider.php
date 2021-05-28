@@ -1,6 +1,6 @@
 <?php
 
-namespace MartyFriedel\LesMillsClassTypes;
+namespace bellevue7k\spanClasses;
 
 use Statamic\Fieldtypes\Bard\Augmentor;
 use Statamic\Providers\AddonServiceProvider;
