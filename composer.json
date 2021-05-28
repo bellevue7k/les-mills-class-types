@@ -1,6 +1,6 @@
 {
-    "name": "martyfriedel/les-mills-class-types",
-    "description": "A custom button for Bard to allow a span with a class to be added to selected text. In this instance, Les Mills group fitness class types.",
+    "name": "bellevue7k/span-classes",
+    "description": "A custom button for Bard to allow a span with a class to be added to selected text.",
     "type": "statamic-addon",
     "keywords": [
         "statamic",
@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "MartyFriedel\\LesMillsClassTypes\\": "src"
+            "bellevue7k\\spanClasses\\": "src"
         }
     },
     "license": "MIT",
@@ -22,12 +22,12 @@
     },
     "extra": {
         "statamic": {
-            "name": "Les Mills Class Types",
+            "name": "Span Classes for Bard",
             "description": "Les Mills Class Types addon for Bard in Statamic 3"
         },
         "laravel": {
             "providers": [
-                "MartyFriedel\\LesMillsClassTypes\\ServiceProvider"
+                "bellevue7k\\spanClasses\\ServiceProvider"
             ]
         }
     }
