@@ -1,12 +1,12 @@
 <?php
 
-namespace MartyFriedel\LesMillsClassTypes;
+namespace bellevue7k\spanClasses;
 
 use ProseMirrorToHtml\Marks\Mark;
 
-class LesMillsClassType extends Mark
+class SpanClasses extends Mark
 {
-    protected $markType = 'lesMillsClassType';
+    protected $markType = 'spanClasses';
     protected $tagName = 'span';
 
     public function matching(): bool
@@ -20,7 +20,7 @@ class LesMillsClassType extends Mark
             [
                 'tag'   => 'span',
                 'attrs' => [
-                    'class' => 'les-mills-class '.$this->mark->attrs->key
+                    'class' => 'span-classes '.$this->mark->attrs->key
                 ],
             ],
         ];
