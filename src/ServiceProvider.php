@@ -8,11 +8,11 @@ use Statamic\Providers\AddonServiceProvider;
 class ServiceProvider extends AddonServiceProvider
 {
     protected $scripts = [
-        __DIR__.'/../dist/js/les-mills-class-types.js',
+        __DIR__.'/../dist/js/span-classes.js',
     ];
 
     protected $stylesheets = [
-        __DIR__.'/../dist/css/les-mills-class-types.css'
+        __DIR__.'/../dist/css/span-classes.css'
     ];
 
     protected $publishables = [
@@ -22,6 +22,6 @@ class ServiceProvider extends AddonServiceProvider
     public function boot()
     {
         parent::boot();
-        Augmentor::addMark(LesMillsClassType::class);
+        Augmentor::addMark(SpanClasses::class);
     }
 }
