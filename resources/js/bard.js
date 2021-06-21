@@ -1,16 +1,16 @@
-import LesMillsClassTypes from "./LesMillsClassTypes";
-import LesMillsClassTypesMenu from "./LesMillsClassTypesMenu.vue";
+import SpanClasses from "./SpanClasses";
+import SpanClassesMenu from "./SpanClassesMenu.vue";
 
-Statamic.$bard.extend(({mark}) => mark(new LesMillsClassTypes()));
+Statamic.$bard.extend(({mark}) => mark(new SpanClasses()));
 Statamic.$bard.buttons(() => {
     return {
-        name: 'lesmillsclass',
-        text: 'Les Mills Class Type',
+        name: 'spanclasses',
+        text: 'Span Classes',
         command: 'classType',
         args: {
             key: ""
         },
         icon: 'les-mills',
-        component: LesMillsClassTypesMenu
+        component: SpanClassesMenu
     };
 });
