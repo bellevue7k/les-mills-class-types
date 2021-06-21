@@ -22,8 +22,8 @@
     },
     "extra": {
         "statamic": {
-            "name": "Les Mills Class Types",
-            "description": "Les Mills Class Types addon for Bard in Statamic 3"
+            "name": "Span Class Types",
+            "description": "Span Class Types addon for Bard in Statamic 3"
         },
         "laravel": {
             "providers": [
