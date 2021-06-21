@@ -45,7 +45,7 @@ export default {
         },
         setClassType(classTypeKey) {
             // update the editor
-            this.editor.commands.lesMillsClassType({
+            this.editor.commands.spanClasses({
                 key: classTypeKey
             })
 
