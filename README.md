@@ -16,7 +16,7 @@ addon for Bard in Statamic 3.
 Install it via the composer command
 
 ```
-composer require martyfriedel/les-mills-class-types
+composer require bellevue7k/span-classes
 ```
 
 In your Bard editor instances (note, *not* the configuration view), you'll see the new button added.
