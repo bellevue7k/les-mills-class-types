@@ -15,10 +15,6 @@ class ServiceProvider extends AddonServiceProvider
         __DIR__.'/../dist/css/span-classes.css'
     ];
 
-    protected $publishables = [
-        __DIR__.'/../dist/css/fonts' => 'css/fonts'
-    ];
-
     public function boot()
     {
         parent::boot();

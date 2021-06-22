@@ -26,7 +26,7 @@ export default {
     computed: {
         classTypes() {
             return {
-                'disableHyphens': {
+                'whiteSpace-noWrap': {
                     name: 'Silbentrennung ausschalten',
                     colour: '#000000'
                 },

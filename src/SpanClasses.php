@@ -20,7 +20,7 @@ class SpanClasses extends Mark
             [
                 'tag'   => 'span',
                 'attrs' => [
-                    'class' => 'span-classes '.$this->mark->attrs->key
+                    'class' => $this->mark->attrs->key
                 ],
             ],
         ];

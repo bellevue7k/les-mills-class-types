@@ -13,14 +13,14 @@ export default class spanClasses {
             },
             parseDOM: [
                 {
-                    tag: "span.span-classes",
+                    tag: "span",
                     getAttrs: (value) => ({key: value}),
                 }
             ],
             toDOM: (mark) => [
                 "span",
                 {
-                    'class': 'span-classes ' + mark.attrs.key,
+                    'class': mark.attrs.key,
                     'data-class': mark.attrs.key
                 },
                 0,
