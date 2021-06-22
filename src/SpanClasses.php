@@ -1,6 +1,6 @@
 <?php
 
-namespace bellevue7k\spanClasses;
+namespace Bellevue7k\SpanClasses;
 
 use ProseMirrorToHtml\Marks\Mark;
 

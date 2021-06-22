@@ -1,6 +1,6 @@
 const mix = require("laravel-mix");
 
-mix.js("resources/js/bard.js", "dist/js/les-mills-class-types.js")
+mix.js("resources/js/bard.js", "dist/js/span-classes.js")
     .vue({version: 2})
     .webpackConfig(require('./webpack.config'))
 

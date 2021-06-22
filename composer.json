@@ -8,13 +8,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "bellevue7k\\spanClasses\\": "src"
+            "Bellevue7k\\SpanClasses\\": "src"
         }
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Marty Friedel"
+            "name": "B7K"
         }
     ],
     "require": {
@@ -22,12 +22,12 @@
     },
     "extra": {
         "statamic": {
-            "name": "Span Class Types",
-            "description": "Span Class Types addon for Bard in Statamic 3"
+            "name": "Span Classes",
+            "description": "Span Class addon for Bard in Statamic 3"
         },
         "laravel": {
             "providers": [
-                "bellevue7k\\spanClasses\\ServiceProvider"
+                "Bellevue7k\\SpanClasses\\ServiceProvider"
             ]
         }
     }
