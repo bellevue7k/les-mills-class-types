@@ -10,7 +10,7 @@ Statamic.$bard.buttons(() => {
         args: {
             key: ""
         },
-        icon: 'les-mills',
+        icon: 'cogs',
         component: SpanClassesMenu
     };
 });

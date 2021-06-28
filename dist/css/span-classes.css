@@ -1,1 +1,29 @@
-.whiteSpace-noWrap{white-space:nowrap}
+@font-face {
+    font-family: 'font-awesome';
+    src: url('fonts/fontawesome-webfont.eot');
+    src: url('fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+    url('fonts/fontawesome-webfont.woff2') format('woff2'),
+    url('fonts/fontawesome-webfont.ttf') format('truetype'),
+    url('fonts/fontawesome-webfont.woff') format('woff'),
+    url('fonts/fontawesome-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.fa {
+
+    font-family: 'font-awesome' !important;
+
+}
+
+.fa-cogs:before {
+
+    content:  "\f085";
+
+}
+
+.whiteSpace-noWrap {
+    white-space: nowrap;
+    text-decoration: underline wavy green;
+}
